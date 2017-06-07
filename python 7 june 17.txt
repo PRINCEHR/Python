@@ -1,0 +1,300 @@
+>>> file.read()
+''
+>>> set1=set()
+>>> set1
+set()
+>>> a=set()
+>>> a.add(1)
+>>> a.add(2)
+>>> a.add(3)
+>>> a
+{1, 2, 3}
+>>> a.ad(3)
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+AttributeError: 'set' object has no attribute 'ad'
+>>> a.add(3)
+>>> a
+{1, 2, 3}
+>>> list=[1,2,11,1,1,1,3,3,4,45,56,6,6,6,6]
+>>> b= set(list)
+>>> b
+{1, 2, 3, 4, 6, 11, 45, 56}
+>>> a,v,s=1,23,4
+>>> a
+1
+>>> v
+23
+>>> s
+4
+>>> n1=input("Enter n1")
+Enter n1 3
+>>> n2=input("Enter n2")
+Enter n2 6
+>>> sum = int(num1)+int(num2)
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'num1' is not defined
+>>> sum = int(n1)+int(n2)
+>>> print("The Sum is :", sum)
+The Sum is : 9
+>>> 1>2
+False
+>>> 4 ** 1/2
+2.0
+>>> 20/7
+2.857142857142857
+>>> 20//7
+2
+>>> 20//7
+2
+>>> a&b
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+TypeError: unsupported operand type(s) for &: 'int' and 'set'
+>>> a=1
+>>> b=6
+>>> b&a
+0
+>>> b
+6
+>>> b&a
+0
+>>> b|a
+7
+>>> b|a
+7
+>>> a,b,c=1,2,3
+>>> a<b and b<c => a<b<c
+  File "<stdin>", line 1
+    a<b and b<c => a<b<c
+                 ^
+SyntaxError: invalid syntax
+>>> a<b and b<c   =>   a<b<c
+  File "<stdin>", line 1
+    a<b and b<c   =>   a<b<c
+                   ^
+SyntaxError: invalid syntax
+>>> a<b<c
+True
+>>> a<b>c
+False
+>>> b=5
+>>> a<b>c
+True
+>>> a=5
+>>> b=6
+>>> a/=
+  File "<stdin>", line 1
+    a/=
+      ^
+SyntaxError: invalid syntax
+>>> a/=b
+>>> a
+0.8333333333333334
+>>> a+=b
+>>> a
+6.833333333333333
+>>>
+>>> if true:
+...    print("i")
+...
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'true' is not defined
+>>> if true:
+... print("hi")
+  File "<stdin>", line 2
+    print("hi")
+        ^
+IndentationError: expected an indented block
+>>> if true:
+...    print("hi")
+...
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'true' is not defined
+>>> pineapple
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'pineapple' is not defined
+>>> apple large 300
+  File "<stdin>", line 1
+    apple large 300
+              ^
+SyntaxError: invalid syntax
+>>> apple large =300
+  File "<stdin>", line 1
+    apple large =300
+              ^
+SyntaxError: invalid syntax
+>>> apple_large = 300
+>>> apple_small = 300
+>>> apple_small = 80
+>>> mango_small = 30
+>>> mango_large = 80
+>>> pineapple_small=80
+>>> pineapple_large=160
+>>> fruit = input("Enter Fruit")
+Enter Fruit apple_small
+>>> if fruit
+  File "<stdin>", line 1
+    if fruit
+           ^
+SyntaxError: invalid syntax
+>>> if fruit:
+...
+...
+  File "<stdin>", line 3
+
+    ^
+IndentationError: expected an indented block
+>>>
+...
+>>>
+>>> if fruit == 'apple':
+...    print('Apple price %s' %(apple_large,apple_small))
+... else
+  File "<stdin>", line 3
+    else
+       ^
+SyntaxError: invalid syntax
+>>> if fruit == 'apple':
+...    print('Apple price %s' %(apple_large,apple_small))
+... eles:
+  File "<stdin>", line 3
+    eles:
+       ^
+SyntaxError: invalid syntax
+>>> if fruit == 'apple':
+...    print('Apple price %s' %(apple_large,apple_small))
+... else:
+...      print("Fruit Not in Stock")
+... fruit=apple
+  File "<stdin>", line 5
+    fruit=apple
+        ^
+SyntaxError: invalid syntax
+>>> fruit=apple
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'apple' is not defined
+>>> fruit=apple
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'apple' is not defined
+>>>    print('Apple price %s' %(apple_large,apple_small))
+  File "<stdin>", line 1
+    print('Apple price %s' %(apple_large,apple_small))
+    ^
+IndentationError: unexpected indent
+>>> else:
+  File "<stdin>", line 1
+    else:
+       ^
+SyntaxError: invalid syntax
+>>> if fruit == "apple:"
+  File "<stdin>", line 1
+    if fruit == "apple:"
+                       ^
+SyntaxError: invalid syntax
+>>> if fruit == "apple":
+...    print("Apple")
+... elif fruit =="mango"
+  File "<stdin>", line 3
+    elif fruit =="mango"
+                       ^
+SyntaxError: invalid syntax
+>>> list=[1,2,3,,4,5,,6,7,8,9,10]
+  File "<stdin>", line 1
+    list=[1,2,3,,4,5,,6,7,8,9,10]
+                ^
+SyntaxError: invalid syntax
+>>> list = [1,2,3,,4,5,,6,7,8,9,10]
+  File "<stdin>", line 1
+    list = [1,2,3,,4,5,,6,7,8,9,10]
+                  ^
+SyntaxError: invalid syntax
+>>> list = [1,2,3,,4,5,,6,7,8,9,10]
+  File "<stdin>", line 1
+    list = [1,2,3,,4,5,,6,7,8,9,10]
+                  ^
+SyntaxError: invalid syntax
+>>> list = {1,2,3,,4,5,,6,7,8,9,10}
+  File "<stdin>", line 1
+    list = {1,2,3,,4,5,,6,7,8,9,10}
+                  ^
+SyntaxError: invalid syntax
+>>> list = {1,2,3,,4,5,,6,7,8,9,10}
+  File "<stdin>", line 1
+    list = {1,2,3,,4,5,,6,7,8,9,10}
+                  ^
+SyntaxError: invalid syntax
+>>>
+>>>
+>>>
+>>>
+>>>
+>>>
+>>>
+>>>
+>>>
+>>>
+>>>
+>>>
+>>>
+>>>
+>>>
+>>>
+>>>
+>>>
+>>>
+>>>
+>>>
+>>>
+>>>
+>>>
+>>>
+>>>
+>>>
+>>>
+>>>
+>>>
+>>>
+>>>
+>>>
+>>>
+>>>
+>>>
+>>>
+>>>
+>>>
+>>>
+>>>
+>>>
+>>>
+>>>
+>>>
+>>>
+>>>
+>>>
+>>>
+>>>
+>>> for x in [1,2,3,,4,5,,6,7,8,9,10]
+  File "<stdin>", line 1
+    for x in [1,2,3,,4,5,,6,7,8,9,10]
+                    ^
+SyntaxError: invalid syntax
+>>> for x in [1,2,3,4,5,,6,7,8,9,10]
+  File "<stdin>", line 1
+    for x in [1,2,3,4,5,,6,7,8,9,10]
+                        ^
+SyntaxError: invalid syntax
+>>> for x in [1,2,3,4,5,,6,7,8,9,10]  print(x)
+  File "<stdin>", line 1
+    for x in [1,2,3,4,5,,6,7,8,9,10]  print(x)
+                        ^
+SyntaxError: invalid syntax
+>>> quit()
+
+C:\Python34>
