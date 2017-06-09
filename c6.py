@@ -19,7 +19,7 @@ s'''
 
 
 def m(n):
-    print n
+    print (n)
 
 dir(str)
 
