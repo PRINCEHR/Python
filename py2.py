@@ -6,7 +6,7 @@ list1 =[]
 
 for x in list:
     if x%2==0:
-     list1=[x]+list1
+        list1=[x]+list1
 
 print (list1)
 
