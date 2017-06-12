@@ -9,4 +9,4 @@ elif (n2<n1 and n2<n3):
 elif (n3<n1 and n3<n2):
     l1 = n3
 
-print ("Smallest Number", l1)
+print ("Small   est Number", l1)
